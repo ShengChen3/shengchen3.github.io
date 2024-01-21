@@ -2,7 +2,6 @@
 layout: null
 ---
 
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -120,7 +119,7 @@ layout: null
           </p>
           <p class="video-author">
             <a class="channel-link" href="https://www.youtube.com/c/mkbhd">
-              Marques Brownlee              
+              Marques Brownlee
             </a>
           </p>
           <p class="video-stats">
@@ -141,9 +140,22 @@ layout: null
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <a href="https://www.youtube.com/c/markiplier">
-            <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
-          </a>
+          <div class="channel-pic-wrap">
+            <a href="https://www.youtube.com/c/markiplier">
+              <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+            </a>
+            <div class="tooltip">
+              <img class="tooltip-author-pic" src="channel-pictures/channel-2.jpeg">
+              <div class="tooltip-info">
+                <div class="channel-name">
+                  Markiplier
+                </div>
+                <div class="subscriber-count">
+                  36.3M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="video-info">
           <p class="video-title">
@@ -174,9 +186,22 @@ layout: null
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <a href="https://www.youtube.com/user/SSSniperWolf">
-            <img class="profile-picture" src="channel-pictures/channel-3.jpeg">
-          </a>
+          <div class="channel-pic-wrap">
+            <a href="https://www.youtube.com/user/SSSniperWolf">
+              <img class="profile-picture" src="channel-pictures/channel-3.jpeg">
+            </a>
+            <div class="tooltip">
+              <img class="tooltip-author-pic" src="channel-pictures/channel-3.jpeg">
+              <div class="tooltip-info">
+                <div class="channel-name">
+                  SSSniperWolf
+                </div>
+                <div class="subscriber-count">
+                  34.3M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="video-info">
           <p class="video-title">
@@ -205,9 +230,22 @@ layout: null
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <a href="https://www.youtube.com/c/veritasium">
-            <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
-          </a>
+          <div class="channel-pic-wrap">
+            <a href="https://www.youtube.com/c/veritasium">
+              <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
+            </a>
+            <div class="tooltip">
+              <img class="tooltip-author-pic" src="channel-pictures/channel-4.jpeg">
+              <div class="tooltip-info">
+                <div class="channel-name">
+                  Veritasium
+                </div>
+                <div class="subscriber-count">
+                  14.6M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="video-info">
           <p class="video-title">
@@ -236,9 +274,22 @@ layout: null
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <a href="https://www.youtube.com/c/CSDojo">
-            <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
-          </a>
+          <div class="channel-pic-wrap">
+            <a href="https://www.youtube.com/c/CSDojo">
+              <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
+            </a>
+            <div class="tooltip">
+              <img class="tooltip-author-pic" src="channel-pictures/channel-5.jpeg">
+              <div class="tooltip-info">
+                <div class="channel-name">
+                  CS Dojo
+                </div>
+                <div class="subscriber-count">
+                  1.92M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="video-info">
           <p class="video-title">
@@ -267,9 +318,22 @@ layout: null
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
-            <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
-          </a>
+          <div class="channel-pic-wrap">
+            <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
+              <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
+            </a>
+            <div class="tooltip">
+              <img class="tooltip-author-pic" src="channel-pictures/channel-6.jpeg">
+              <div class="tooltip-info">
+                <div class="channel-name">
+                  MrBeast
+                </div>
+                <div class="subscriber-count">
+                  233M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="video-info">
           <p class="video-title">
