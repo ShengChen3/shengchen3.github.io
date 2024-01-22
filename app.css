@@ -35,6 +35,12 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media (max-width: 800px) {
+  .favorite-animes {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .anime-pic {
   height: 250px;
   width: 250px;
