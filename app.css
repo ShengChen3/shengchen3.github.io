@@ -37,15 +37,8 @@ body {
 
 
 .favorite-animes {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   border: solid; 
-}
-
-@media (max-width: 1000px) {
-  .favorite-animes {
-    grid-template-columns: 1fr 1fr;
-  }
 }
 
 .anime {
