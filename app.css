@@ -28,23 +28,61 @@ body {
   border-radius: 75px;
   object-fit: cover;
   object-position: top;
+  transition: transform 0.3s ease; /* Add transition property */
 }
+
+.selfie:hover {
+  transform: scale(0.8);
+}
+
 
 .favorite-animes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  border: solid;
+  place-items: center;
+  align-items: center; 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .favorite-animes {
     grid-template-columns: 1fr 1fr;
   }
 }
 
+.anime {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
 .anime-pic {
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   object-fit: cover;
   object-position: top;
-  margin-left: 50px;
+}
+
+.anime-name {
+  margin: 10px 0px;
+  text-decoration: none;
+  color: rgb(255, 142, 142);
+  background-color: lightblue;
+  padding: 0px 10px;
+  border-radius: 5px;
+  transition: transform 0.15s ease;
+}
+
+.anime-name:hover {
+  transform: scale(0.95);
+}
+
+.anime-name:active {
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+
+.anime-name:visited {
+  color: darkblue;
 }
