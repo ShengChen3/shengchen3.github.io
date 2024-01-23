@@ -39,9 +39,7 @@ body {
 .favorite-animes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  border: solid;
-  place-items: center;
-  align-items: center; 
+  border: solid; 
 }
 
 @media (max-width: 1000px) {
@@ -55,6 +53,8 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
+  width: 250px;
+  height: 250px;
 }
 
 .anime-pic {
@@ -65,24 +65,5 @@ body {
 }
 
 .anime-name {
-  margin: 10px 0px;
-  text-decoration: none;
-  color: rgb(255, 142, 142);
-  background-color: lightblue;
-  padding: 0px 10px;
-  border-radius: 5px;
-  transition: transform 0.15s ease;
-}
-
-.anime-name:hover {
-  transform: scale(0.95);
-}
-
-.anime-name:active {
-  opacity: 0.8;
-  transform: scale(0.9);
-}
-
-.anime-name:visited {
-  color: darkblue;
+  width: 200px;
 }
