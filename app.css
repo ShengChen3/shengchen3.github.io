@@ -28,13 +28,35 @@ body {
   border-radius: 75px;
   object-fit: cover;
   object-position: top;
-  transition: transform 0.3s ease; /* Add transition property */
+  transition: transform 0.3s ease;
+  user-select: none;
 }
 
 .selfie:hover {
   transform: scale(0.8);
 }
 
+.name-social {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+#facebook {
+  margin-right: 10px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.name {
+  margin: 0;
+}
 
 .favorite-animes {
   display: flex;
@@ -49,7 +71,7 @@ body {
   width: 100%;
   text-align: center;
   font-size: 25px;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 .anime {
@@ -79,6 +101,7 @@ body {
   object-fit: cover;
   object-position: top;
   border-radius: 5px;
+  user-select: none;
 }
 
 #a-silent-voice {
@@ -86,5 +109,6 @@ body {
 }
 
 .anime-name {
+  margin-top: 10px;
   width: 200px;
 }
