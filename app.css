@@ -39,6 +39,8 @@ body {
 .favorite-animes {
   display: flex;
   border: solid; 
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .anime {
@@ -46,23 +48,23 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  width: 250px;
-  height: 240px;
   margin-bottom: 10px;
   text-decoration: none;
   color: white;
-  transition: 0.15s ease;
+  transition: transform 0.15s ease; 
 }
 
 .anime:hover {
   transform: scale(0.95);
 }
 
+
 .anime-pic {
   height: 200px;
   width: 200px;
   object-fit: cover;
   object-position: top;
+  border-radius: 5px;
 }
 
 .anime-name {
