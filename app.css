@@ -10,6 +10,49 @@ body {
   align-items: center;
 }
 
+.background {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  text-align: center;
+  width: 75%;
+  border: solid;
+  height: 500px;
+  max-width: 1000px;
+}
+
+.background-section {
+  padding: 40px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in;
+}
+
+.background-section:hover {
+  background-color: grey; 
+}
+
+.background-set {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background-icon {
+  width: 120px;
+  height: 120px;
+  object-fit: scale-down;
+  border-radius: 5px;
+}
+
+#hjhs {
+  border-radius: 1000px;
+}
+
+.background-name {
+  margin: 10px 0;
+}
+
 .intro {
   display: flex;
   align-items: center;
