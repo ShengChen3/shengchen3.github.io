@@ -16,7 +16,6 @@ body {
   align-items: center;
   text-align: center;
   width: 75%;
-  border: solid;
   height: 500px;
   max-width: 1000px;
 }
@@ -103,7 +102,6 @@ body {
 
 .favorite-animes {
   display: flex;
-  border: solid; 
   flex-wrap: wrap;
   width: 75%;
   max-width: 1000px;
