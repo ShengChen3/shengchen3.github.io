@@ -1,55 +1,17 @@
 body {
-  background: linear-gradient(to right, #001f3f, rgb(0, 100, 139));
+  background: rgb(0, 11, 36);
+  overflow: none;
   color: #ffffff;
+  margin: 0;
   font-family: Arial, sans-serif;
+  height: 100vh;
+  position: relative;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.background {
-  display: flex;
-  justify-content:space-around;
-  align-items: center;
-  text-align: center;
-  width: 75%;
-  height: 500px;
-  max-width: 1000px;
-}
-
-.background-section {
-  padding: 40px 20px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.15s ease-in;
-}
-
-.background-section:hover {
-  background-color: grey; 
-}
-
-.background-set {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.background-icon {
-  width: 120px;
-  height: 120px;
-  object-fit: scale-down;
-  border-radius: 5px;
-}
-
-#hjhs {
-  border-radius: 1000px;
-}
-
-.background-name {
-  margin: 10px 0;
 }
 
 .intro {
@@ -98,6 +60,54 @@ body {
 
 .name {
   margin: 0;
+}
+
+.background {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid;
+  justify-content:space-around;
+  align-items: center;
+  text-align: center;
+  width: 75%;
+  max-width: 1000px;
+}
+
+.background-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  padding: 40px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.15s ease-in;
+}
+
+.background-section:hover {
+  background-color: grey; 
+}
+
+.background-icon {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  object-fit: scale-down;
+  border-radius: 5px;
+}
+
+#hjhs-tutoring {
+  border-radius: 1000px;
+}
+
+.background-name {
+  text-align: center;
+  margin: 10px 0;
+  width: 80%;
 }
 
 .favorite-animes {
@@ -152,4 +162,34 @@ body {
 .anime-name {
   margin-top: 10px;
   width: 200px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 200px;
+  width: 100%;
+  background-color: rgb(25, 26, 54);
+}
+
+@media (min-height: 1202px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.footer b {
+  display: block;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer p {
+  text-align: center;
+  margin-top: 8px;
 }
